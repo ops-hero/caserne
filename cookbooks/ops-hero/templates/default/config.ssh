@@ -1,0 +1,9 @@
+Host localhost 127.0.0.1 0.0.0.0
+    HostName localhost
+    PreferredAuthentications publickey
+    IdentityFile ~/.vagrant.d/insecure_private_key
+
+Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.my-ssh/id_rsa
